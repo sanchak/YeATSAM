@@ -1,0 +1,4 @@
+
+
+$SRC/GNM/checkBLASTMatchtoGenome.pl  -DB /home/sandeepc/DATA/rafael/walnut/2/NEW/DB/wgs.5d.scafSeq200+.trimmed -outd BLASTEXACT -fasta head.uniq -inf xxx.XM_012891999.1 -outf mmm -save 1
+

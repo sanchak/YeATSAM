@@ -1,0 +1,81 @@
+#!/bin/csh -f
+alias sp 'set path = ( \!* $path )'
+
+setenv BIOPERLHOME /home/tsbutter/Bio/Code/perl_scripts/perl_scripts/
+setenv PRISM $BIOPERLHOME/PRISM
+
+setenv PDB2PQR /home/tsbutter/pdb2pqr/
+
+
+
+setenv PDBDIR /home/data/pdbsnamd/
+setenv APBSDIR  /home/data/apbsnamd/
+
+
+setenv PDBDIR /home/data/pdbsdecoy/
+
+setenv PDBDIRDECOY /home/data/pdbsdecoy/
+setenv PDBDIR /home/data/pdbs/
+#setenv PDBDIR /home/data/pdbs/
+setenv PDBDIR ~/PDBMANAGER/PDBDIR/
+setenv APBSDIR ~/PDBMANAGER/apbs/
+setenv FASTADIR ~/PDBMANAGER/FASTADIR/
+setenv HELIXDIR ~/PDBMANAGER/HELIXDIR/
+setenv DSSP ~/PDBMANAGER/DSSP/
+setenv FPOCKET ~/PDBMANAGER/FPOCKET/
+
+setenv UNIPROT  /home/data/uniprot/
+setenv PREMONITION  /home/tsbutter/DATA/CSA/PREMONITION/
+
+setenv CONFIGGRP /home/tsbutter/DATA/data/config.grp
+setenv MAPPINGFILE /home/tsbutter/DATA/data/mapping.txt
+
+setenv ANNDIR  /home/tsbutter/DATA/CSA/ANNOTATE.4/
+setenv CACHEPDB  $SRC
+setenv MATCH3D  $SRC
+setenv RESULTDIR  $SRC
+
+
+setenv BLASTDB  /home/tsbutter/BLASTDB/
+
+sp $BIOPERLHOME
+sp $BIOPERLHOME/APBS
+sp $BIOPERLHOME/DELPHI
+sp $BIOPERLHOME/EXTERNALTOOLS
+sp $BIOPERLHOME/SHELLSCRIPTS
+sp $BIOPERLHOME/BIOPERL
+sp $BIOPERLHOME/PDBSEQRES
+sp $BIOPERLHOME/MISC
+sp $BIOPERLHOME/ALIGN
+sp $BIOPERLHOME/CSA
+sp $BIOPERLHOME/WEB
+sp $BIOPERLHOME/IMAGE
+sp $BIOPERLHOME/PRIMER
+sp $BIOPERLHOME/DECAAF
+sp $BIOPERLHOME/BLASE
+sp $BIOPERLHOME/BLAST
+sp $BIOPERLHOME/BLASE
+sp $BIOPERLHOME/BLAST
+sp $BIOPERLHOME/NAMD
+sp $BIOPERLHOME/FRAGALWEB
+sp $BIOPERLHOME/QP
+sp $BIOPERLHOME/HETATM
+sp $BIOPERLHOME/ENM
+sp $BIOPERLHOME/CASP
+sp $BIOPERLHOME/DB
+sp $BIOPERLHOME/GNM
+sp $BIOPERLHOME/RSCRIPTS
+sp $BIOPERLHOME/CODON
+sp $BIOPERLHOME/HELIX
+sp $PRISM
+setenv PERLLIB "/data2/export/tsbutter/Downloads/Math-Combinatorics-0.09/lib:/data1/citreae-backup/share/apps/biocore/lib/perl5/site_perl/5.10.1/:/data1/citreae-backup/opt/rocks/lib/perl5/site_perl/5.8.8/:/home/tsbutter/Downloads/BioPerl-1.6.924:/home/tsbutter/Bio/Code/perl_scripts/perl_scripts/:/home/tsbutter/Bio/Code/perl_scripts/perl_scripts/PRISM:$BIOPERLHOME/PRIMER/:/home/tsbutter/Bio/Code/perl_scripts/perl_scripts/BIOPERL:$BIOPERLHOME/QP:$PERLLIB"
+
+
+sp /home/tsbutter/DownloadedTools/apbs/
+# for multivalue - 
+sp /home/tsbutter/DownloadedTools/apbs/apbs-1.2.1-source/tools/mesh/
+# for pdb2pqr.py
+sp /home/tsbutter/pdb2pqr
+setenv PERLLIB /data2/export/tsbutter/QQQ/lib/perl5/:/data2/export/tsbutter/QQQ/lib/perl5/x86_64-linux-thread-multi:$PERLLIB
+
+

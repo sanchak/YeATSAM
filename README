@@ -1,0 +1,14 @@
+Please contact sanchak@gmail.com in case of any queries.
+
+Installation:
+ 1. Use the tcsh shell (bash shell wont work).
+ 2. Install the cpan perl packages from http://www.cpan.org/. (YeATSAM/SHELLSCRIPTS/cpanall.csh).
+ 3. Set some environment variables (SRC, BIOPERLHOME, etc). The complete list is in a file called "setup.csh" - modify this file and source it. This changes the $path variable too. 
+
+
+Running the YeATSAM pipeline.
+1) In order to parallelize the commands, the YeATSAM pipeline is broken into several steps. 
+These are in the YeATSAM/GNM/step.*.
+2) However, to enable running a single transcript you have to run:
+   YeATSAM/GNM/STEPsequential.csh <tagid> <transcript.fasta> <protein.DB.fasta>
+

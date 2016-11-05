@@ -1,0 +1,16 @@
+pdbhetinfo.csh process.list5.protein
+### This will run pdbhetinfoSingleInfo.pl on each PDB
+### and then collate the information into HET2PDB, PDB2HET, YESHET and NOHET
+### using pdbhetinfoCollate.pl
+
+
+## Next, using the mapping - find items of <hetatm, YESHET, NOHET>
+pdbhetinfoExtractHolo2ApoMap.pl -mapp process.list5.protein.seq.uniq.mapping -inf $PDBDIR/HET2PDB
+
+## this writes these steps
+a) hetatmProcNew.pl -het PU1 -pr 1UYFA -ispolar 1
+	Get the residues
+         cat HETINFO/1UYFA/PU1/1UYFA.4.1.1224.table.in
+b) hetatmHolo2ApoMatchSeqNum.pl -inf HETINFO/1UYFA/PU1/1UYFA.4.0.1224.table.in -p1 1UYFA -p2 1UYLA
+	Match the residues in the apo and holo - this gets the CLASP/PREMONITION motif
+

@@ -1,0 +1,3 @@
+grep $1 /home/sandeepc/DATA/rafael/walnut/2/genome.*
+cat /home/sandeepc/DATA/rafael/walnut/2/FASTADIR_ORFNEW/$1.ALL.1.fasta
+#cat /home/sandeepc/DATA/rafael/walnut//FASTADIR/$1.ALL.1.fasta

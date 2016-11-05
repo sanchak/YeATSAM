@@ -1,0 +1,11 @@
+#!/bin/csh -f
+
+if($1 != "") then 
+	if (-e $1) then 
+	    cd $1
+	endif 
+endif 
+
+ls | wc -l
+ 
+

@@ -1,0 +1,18 @@
+#!/bin/csh  -f
+
+if($#argv != 3  ) then 
+    echo "Wrong args, required 1 " ; exit 
+endif 
+
+set db = $1 
+set query = $2 
+set out = $3 
+
+#if( ! -e $out) then 
+    blastp -db $db -query $query -out $out
+#else
+	#echo Already done $out
+#endif
+
+ 
+

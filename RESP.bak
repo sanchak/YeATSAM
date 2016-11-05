@@ -1,0 +1,53 @@
+
+Dear Dr Tholl,
+
+We would like to thank the referees for taking the time to review this paper, and providing constructive criticism on the overall manuscript. 
+We also appreciate the oppurtunity to make suitable changes where appropriate, 
+and defend some of the critiques that are not correct in our opinion.
+
+One significant improvement in the revised manuscript is the application of YeATSAM on the chickpea transcriptome.
+We identified about 1000 transcripts that are homologous to other plant genes, but not annotated in the NCBI database.
+The NCBI annotation has been done using Gnomon (http://www.ncbi.nlm.nih.gov/genome/guide/gnomon.shtml).
+While, the comparison between Gnomon and YeATSAM is not direct since Gnomon, unlike MAKER-P does not take the transcriptome as an input, the fact remains that the transcriptome provides a simple straightforward method to identify genes.
+Furthermore, the very fact that makes RNA-seq attractive (high coverage due to its ability to sequence transcripts with low expression) also poses challenges in the assembly procedure.
+Although, it is beyond the scope of our work, an assembler that considers the artifacts mentioned in this paper would be a good strategy to address these issues upfront.
+
+
+In accordance to your guidelines, we have provided a marked-up copy of the changes made from the previous article file as a manuscript with tracked changes file.
+We appreciate your consideration of our revised manuscript and look forward to hearing back from you.
+Sincerely,
+
+We would like to thank the referee for taking the time to review this paper, and providing constructive criticism on the overall manuscript. 
+We are pleased to submit a major revised version of our article entitled "XYZ".
+We have revised the manuscript keeping these in mind.
+We have responded to all of the reviewers comments in revising this manuscript.
+
+In accordance to your guidelines, I have provided a marked-up copy of the changes made from the previous article file as a manuscript with tracked changes file.
+ I have not marked the changes in reference numbers, which has resulted from the addition of the relevant citations.
+
+
+Below we outline a point-by-point response to the reviewers' comments.
+Below I outline a point-by-point response to your comments.
+
+We appreciate the positive comment.
+
+We have cited the studies suggested (and others obtained through a comprehensive literature survey) appropriately to improve the manuscript.
+
+In accordance to your guidelines, we have provided a marked-up copy of the changes made from the previous article file as a manuscript with tracked changes file.
+
+
+In the course of this revision, our attention has been drawn to previous work that has touched upon the same problem that we have addressed in the current work~\cite{STEEPPIPSA,STEEPMCT,STEEPAdenine,STEEPLIVESAY,STEEPPHdomain}.
+We have added a paragraph in the Discussion detailing these work.
+
+I appreciate your consideration of the revised manuscript, and look forward to hearing back from you.
+best wishes,
+Sandeep
+
+
+We have modified the methods section to clarify this.
+
+
+We have redone the specified figures. However, we believe the tables are lucid and minimalistic. These remain unchanged.
+
+We appreciate your consideration of our revised manuscript and look forward to hearing back from you.
+Sincerely,
